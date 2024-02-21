@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_brands"
+            android:icon="@drawable/wq"
+            android:title="Brands"/>
+        <item android:id="@+id/nav_orders"
+            android:icon="@drawable/conversation"
+            android:title="Consult Us"
+            android:textStyle="bold"/>
+        <item android:id="@+id/nav_customers"
+            android:icon="@drawable/customerss"
+            android:title="User Profile"
+            android:textStyle="bold"/>
+        <item android:id="@+id/nav_delivery"
+            android:icon="@drawable/chatttt"
+            android:title="Chat With Us"
+            android:textStyle="bold"/>
+        <item android:id="@+id/nav_sales"
+            android:icon="@drawable/waterfilter"
+            android:title="Water Treatment"
+            android:textStyle="bold"/>
+    </group>
+</menu>

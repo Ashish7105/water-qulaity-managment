@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "542034333721",
+    "project_id": "waterdeliveryapp-7bb5c",
+    "storage_bucket": "waterdeliveryapp-7bb5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542034333721:android:27baec63645379d4bfda88",
+        "android_client_info": {
+          "package_name": "com.example.water"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUeJ2VxdbW9zhG8WkcV4g7bMDzwlbVIow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BrandsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:alignmentMode="alignMargins"
+                android:columnCount="2"
+                android:rowCount="3">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="6dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_row="0"
+                            android:layout_column="0"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_row="0"
+                                android:layout_column="0"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:padding="6dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_row="0"
+                                    android:layout_column="0"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:padding="6dp">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_row="0"
+                                        android:layout_column="0"
+                                        android:gravity="center"
+                                        android:orientation="vertical"
+                                        android:padding="6dp">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:layout_row="0"
+                                            android:layout_column="0"
+                                            android:gravity="center"
+                                            android:orientation="vertical"
+                                            android:padding="6dp">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="match_parent"
+                                                android:layout_row="0"
+                                                android:layout_column="0"
+                                                android:gravity="center"
+                                                android:orientation="vertical"
+                                                android:padding="6dp">
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="match_parent"
+                                                    android:layout_row="0"
+                                                    android:layout_column="0"
+                                                    android:gravity="center"
+                                                    android:orientation="vertical"
+                                                    android:padding="6dp">
+
+                                                    <ImageView
+                                                        android:layout_width="80dp"
+                                                        android:layout_height="80dp"
+                                                        android:src="@drawable/bisleri1" />
+
+                                                    <TextView
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_marginTop="12dp"
+                                                        android:text="Bisleri"
+                                                        android:textColor="#000000"
+                                                        android:textSize="18sp"
+                                                        android:textStyle="bold" />
+
+                                                    <TextView
+                                                        android:layout_width="wrap_content"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_marginTop="12dp"
+                                                        android:text="Pure. Safe. Trusted"
+                                                        android:textColor="#000000"
+                                                        android:textSize="18sp"
+                                                        android:textStyle="bold" />
+
+                                                </LinearLayout>
+
+                                                <ImageView
+                                                    android:layout_width="80dp"
+                                                    android:layout_height="80dp"
+                                                    android:src="@drawable/aquuafina1" />
+
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="12dp"
+                                                    android:text="AquaFina"
+                                                    android:textColor="#000000"
+                                                    android:textSize="18sp"
+                                                    android:textStyle="bold" />
+                                                <TextView
+                                                    android:layout_width="wrap_content"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginTop="12dp"
+                                                    android:text="Purity Guaranteed"
+                                                    android:textColor="#000000"
+                                                    android:textSize="18sp"
+                                                    android:textStyle="bold" />
+
+                                            </LinearLayout>
+
+                                            <ImageView
+                                                android:layout_width="80dp"
+                                                android:layout_height="80dp"
+                                                android:src="@drawable/bailey1"/>
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="12dp"
+                                                android:text="Bailey"
+                                                android:textColor="#000000"
+                                                android:textSize="18sp"
+                                                android:textStyle="bold" />
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="12dp"
+                                                android:text="Safe And Trusted"
+                                                android:textColor="#000000"
+                                                android:textSize="18sp"
+                                                android:textStyle="bold" />
+
+                                        </LinearLayout>
+
+                                        <ImageView
+                                            android:layout_width="80dp"
+                                            android:layout_height="80dp"
+                                            android:src="@drawable/himalayan1" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="12dp"
+                                            android:text="Himalayan Mineral Water"
+                                            android:textColor="#000000"
+                                            android:textSize="18sp"
+                                            android:textStyle="bold" />
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="12dp"
+                                            android:text="Drink Pure"
+                                            android:textColor="#000000"
+                                            android:textSize="18sp"
+                                            android:textStyle="bold" />
+
+                                    </LinearLayout>
+
+                                    <ImageView
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
+                                        android:src="@drawable/nestle1" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="12dp"
+                                        android:text="Nestle Waters"
+                                        android:textColor="#000000"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold" />
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="12dp"
+                                        android:text="Pure and Safe"
+                                        android:textColor="#000000"
+                                        android:textSize="18sp"
+                                        android:textStyle="bold" />
+
+
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:src="@drawable/deerpark1" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="12dp"
+                                    android:text="Deer Park"
+                                    android:textColor="#000000"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
+                                <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:text="Be Healthy"
+                                android:textColor="#000000"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/scheweppes1" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:text="Scheweppes"
+                                android:textColor="#000000"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:text="Tonic for Toned"
+                                android:textColor="#000000"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/polandspring1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="Poland Spring"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:text="Fresh like Spring"
+                            android:textColor="#000000"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
